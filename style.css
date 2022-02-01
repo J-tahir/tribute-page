@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#main
+{
+    background-color: rgb(245, 243, 243);
+    box-shadow: 0px 2px 2px 2px rgb(68, 67, 67);
+    margin: 30px 20px;
+    padding: 40px 0px;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#title
+{
+    font-size: 3rem;
+    color: rgb(36, 35, 35);
+    margin:auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+p
+{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#img-div
+{
+    background-color: white;
+    padding: 20px 60px;
+    margin: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+img
+{
+    box-shadow: 1px 1px 5px 1px rgb(150, 150, 150);
+    opacity: 90%;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+figure p
+{
+    margin: 10px 20px 0px 20px;
+}
+
+#tribute-info
+{
+    margin: auto;
+    text-align: left;
+    padding:  0px 80px;
+}
+
+h3
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+li
+{
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+#awards h3
+{
+    margin-top: 50px;
+}
+
+blockquote
+{
+    margin: auto;
+    padding: 0px 80px;
+}
+blockquote p
+{
+    text-align: justify;
+}
+
+#tribute-link a
+{
+    text-decoration: none;
+} 
+
+@media (max-width:540px)
+{
+    #img-div
+    {
+        padding: 10px;
+        margin: 10px;
+    }
+    figure p
+    {
+        text-align: justify;
+        font-size: 15px;
+    }
+    #tribute-info
+    {
+        padding:  0px 20px;
+    }
+    blockquote
+    {
+        padding: 0px 30px;
+    }
+
+}
